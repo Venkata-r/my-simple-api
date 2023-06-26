@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
   
 });
 app.listen(8080, function () {
-  console.log('Example app listening on port 3000!');
+  console.log('Example app listening on port 8080!');
 });
 
 function delay(time) {
@@ -14,8 +14,8 @@ function delay(time) {
 } 
 
 async function run(res) {
-	console.log("delaying for 5 secs");
+	console.log("delaying for 15 secs");
   await delay(15000);
   res.send('Hello World!.. Sample API..');
-  console.log('This printed after about 1 second');
+  console.log('This printed after about 15 seconds');
 }
