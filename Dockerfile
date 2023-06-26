@@ -20,4 +20,4 @@ COPY . /app
 EXPOSE 8080 
 
 #Start app 
-CMD ["node", "indexm.js"]
+CMD ["node", "index.js"]
